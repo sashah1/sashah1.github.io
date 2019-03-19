@@ -49,6 +49,11 @@ a:hover {
   color: #d86357;
 }
 
+a:active {
+  color: #d86357;
+  text-decoration: underline;
+}
+
 a:hover {
   color: #d86357;
   text-decoration: underline;
@@ -71,6 +76,70 @@ a {
 .timeline > li {
   position: relative;
   min-height: 50px;
-  margin-bottom: 0px;
+  margin-bottom: 75px;
+}
+
+.mylink {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.btn.btn-primary {
+  color: #ffffff;
+  background-color: #e98074;
+  border-color: #e98074;
+}
+
+.btn.btn-primary.btn-mine:hover {
+  color: #ffffff!important;
+  background-color: #d86357!important;
+  border-color: #d86357!important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #165492;
+  background-color: #0e8c0b!important;
+  border-color: #66245f;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  color: #ffffff!important;
+  background-color: #d86357!important;
+  border-color: #d86357!important;
+  box-shadow: 0 0 0 0rem rgba(254,209,55,.5)!important;
+}
+
+.btn.btn-mine {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff!important;
+  background-color: #d86357!important;
+  border-color: #d86357!important;
+}
+
+.btn.btn-mine:hover {
+  color: #000000;
+  background-color: #000000;
+  border-color: #ffffff;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #db8577;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  margin-bottom: .5rem;
+}
+
+::selection {
+  background: rgb(182,198,255);
 }
 
