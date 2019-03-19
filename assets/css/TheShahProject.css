@@ -23,7 +23,7 @@
 
 .rounded-circle.img-fluid {
   color: #000000;
-  margin: 35px -10px;
+  margin: 0px;
 }
 
 body {
@@ -141,5 +141,9 @@ h1, h2, h3, h4, h5, h6 {
 
 ::selection {
   background: rgb(182,198,255);
+}
+
+.timeline-heading {
+  margin-top: 10px;
 }
 
