@@ -134,12 +134,31 @@ a {
   color: #db8577;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0px;
-  margin-bottom: .5rem;
-}
-
 ::selection {
   background: rgb(155,201,255);
+}
+
+.myHeading {
+  color: #8e8d8a;
+  font: initial;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.timeline:before {
+  background-color: #8e8d8a;
+}
+
+.timeline > li .timeline-image {
+  border-color: #8e8d8a;
 }
 
