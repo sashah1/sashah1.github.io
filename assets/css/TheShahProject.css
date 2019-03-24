@@ -162,3 +162,18 @@ a {
   border-color: #8e8d8a;
 }
 
+#mainNav {
+  /*background-color: #8e8d8a!important;*/
+}
+
+.rounded-circle.img-fluid.rotato {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.rounded-circle.img-fluid.rotato:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
