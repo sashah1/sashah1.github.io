@@ -66,10 +66,10 @@ a {
 }
 
 .text-muted.section-subheading {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   font-style: italic;
-  /*margin-bottom: 75px;*/
+  margin-bottom: 1rem;
   text-transform: none;
   font-family: Droid Serif,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
@@ -199,5 +199,49 @@ p:active {
 .btn.btn-primary.hide {
   background-color: transparent!important;
   border-color: transparent!important;
+}
+
+.timeline > li .timeline-panel-left {
+  float: left;
+  width: 41%;
+  padding: 30px 20px 20px 0px;
+  text-align: right;
+}
+
+.timeline > li .timeline-panel-right {
+  float: right;
+  width: 41%;
+  padding: 0px 20px 20px 30px;
+  text-align: left;
+}
+
+.timeline {
+  position: relative;
+  padding: 0;
+  list-style: none;
+}
+
+.myText {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+.ExperienceHeading {
+  font-size: 32px;
+}
+
+.social-link {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.download-button {
+  padding-bottom: 10px;
+}
+
+.collapse-left {
 }
 
