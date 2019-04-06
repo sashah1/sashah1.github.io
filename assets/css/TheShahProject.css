@@ -137,7 +137,11 @@ a {
   color: #8e8d8a;
   font: initial;
   font-size: 14pt;
+  font-style: normal;
   font-weight: bold;
+  font-family: "Open Sans";
+  margin-top: 20px;
+  line-height: 1.5em;
 }
 
 .list-group-item {
@@ -272,6 +276,8 @@ p:active {
 
 .portfolio-modal .modal-content p {
   margin-bottom: 0px;
+  text-align: left;
+  line-height: 1.5em;
 }
 
 .portfolio-modal .modal-content img {
