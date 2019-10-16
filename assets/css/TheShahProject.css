@@ -288,3 +288,18 @@ p:active {
   margin-bottom: 40px;
 }
 
+.hang {
+  margin-left: 6em;
+  text-indent: -2em;
+}
+
+bullets {
+  margin-left: 2rem;
+  text-indent: -1rem;
+}
+
+.bullet {
+  margin-left: 2em;
+  text-indent: -1em;
+}
+
