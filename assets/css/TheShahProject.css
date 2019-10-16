@@ -303,3 +303,17 @@ bullets {
   text-indent: -1em;
 }
 
+.subheading {
+  margin-top: 16px;
+}
+
+.paragraph {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.subheading2 {
+  margin-top: 16px;
+  font-size: 32px;
+}
+
